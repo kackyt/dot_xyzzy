@@ -33,7 +33,7 @@
 (setq java-brace-imaginary-offset 0)
 (setq java-label-offset -4)
 (setq java-comment-indent 4)
-(define-key *global-keymap* #\C-x 'kill-selection-to-clipboard )
+;(define-key *global-keymap* #\C-x 'kill-selection-to-clipboard )
 (define-key *global-keymap* #\C-v 'paste-from-clipboard )
 (global-set-key #\F8 'ctl-x-prefix)
 (global-set-key #\F1 'grep-dialog)
